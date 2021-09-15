@@ -26,9 +26,7 @@ public class Main {
         PaymentService paymentService = new PaymentService();
 
         // TODO - reduzir chamadas múltiplas para uma única chamada para o método pay() utilizando o padrão composite
-        paymentService.pay(apartment);
-        paymentService.pay(bungalow);
-        paymentService.pay(tenament);
+        paymentService.pay(propertyContainer);
 
 
     }
